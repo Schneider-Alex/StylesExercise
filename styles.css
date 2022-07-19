@@ -410,3 +410,28 @@ background: linear-gradient(to left, #dd2476, #ff512f); /* W3C, IE 10+/ Edge, Fi
         margin-top:1rem;
     }
 }
+
+@media screen and (max-width: 480px){
+    .main__img--card{
+        width:250px;
+        height:250px;
+    }
+    .fa-users, .fa-later-group{
+        font-size: 4rem;
+    }
+    .main__content h1{
+        font-size: 2rem;
+        margin-top:3rem;
+    }
+    .main__content h2{
+        font-size: 2rem;
+    }
+    .main__content p{
+        margin-top:2rem;
+    }
+
+    .main__btn{
+        padding:12px 36px;
+        margin:2.5rem 0;
+    }
+}
